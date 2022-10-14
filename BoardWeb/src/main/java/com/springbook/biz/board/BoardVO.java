@@ -10,7 +10,7 @@ import javax.xml.bind.annotation.XmlTransient;
 import org.springframework.web.multipart.MultipartFile;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-//VO(Value Object)f
+//VO(Value Object)
 @XmlAccessorType(XmlAccessType.FIELD)
 public class BoardVO {
 	@XmlAttribute
