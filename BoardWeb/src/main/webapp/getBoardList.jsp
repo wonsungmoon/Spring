@@ -1,5 +1,6 @@
 <%@page contentType="text/html; charset=EUC-KR"%>
 <%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 						"http://www.w3.org/TR/html4/loose.dtd">
@@ -10,7 +11,7 @@
 </head>
 <body>
 <center>
-<h1>글 목록</h1>
+<h1></h1>
 <h3>${userName}님! 게시판에 오신걸 환영합니다....<a href="logout.do">Log-out</a></h3>
 
 <!-- 검색 시작 -->
