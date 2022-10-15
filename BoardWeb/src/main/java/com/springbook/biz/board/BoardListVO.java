@@ -20,5 +20,5 @@ public class BoardListVO {
 	public void setBoardList(List<BoardVO> boardList) {
 		this.boardList= boardList;
 	}
-
+	//test
 }
